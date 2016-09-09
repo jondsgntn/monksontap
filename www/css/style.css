@@ -1,4 +1,11 @@
 /* Empty. Add your own CSS if you like */
+.bar.bar-stable{
+	background:#000;
+	border:none;
+}
+.bar.bar-stable .title{
+	color:#ddd;
+}
 .item{
 	text-align:center;
 	background-color:#170E09;
@@ -39,4 +46,8 @@
 .beverage-location{
 	font-style:italic;
 	margin-bottom:10px;
+}
+.item img{
+	max-width:50vw;
+	background:rgba(255,255,255,0.5);
 }

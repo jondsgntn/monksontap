@@ -2,7 +2,7 @@ angular.module('monksOnTap.controllers', [])
 
 .controller('MonksCtrl', function($scope, $http, $sce) {
 	$scope.tapList = [];
-	$http.get("http://localhost:1337/fbpage.digitalpour.com/?companyID=533db384fb890c13349fa31f&locationID=1")
+	$http.get("http://fbpage.digitalpour.com/?companyID=533db384fb890c13349fa31f&locationID=1")
 		.success(function(data) {
 			var parser = new DOMParser();
 			var doc = parser.parseFromString(data, 'text/html');
